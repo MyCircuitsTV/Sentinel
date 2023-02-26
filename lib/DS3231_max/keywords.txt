@@ -1,0 +1,48 @@
+#######################################
+#  Syntax Coloring Map For AutoPower
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DS3231	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+enableAlarmInt	KEYWORD2
+setAlarm	KEYWORD2
+getAlarmTime	KEYWORD2
+clearAlarms	KEYWORD2
+getAlarms	KEYWORD2
+parseTime	KEYWORD2
+parseDateTime	KEYWORD2
+setDateTime	KEYWORD2
+getDateTime	KEYWORD2
+timeToString	KEYWORD2
+dateToString	KEYWORD2
+doyOfWeekToString	KEYWORD2
+timeToDecimal	KEYWORD2
+addTime		KEYWORD2
+setAmPmMode	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+
+ALARM1_EVERY_SECOND             LITERAL1
+ALARM1_SEC_MATCH                LITERAL1
+ALARM1_SEC_MIN_MATCH            LITERAL1
+ALARM1_SEC_MIN_HOUR_MATCH       LITERAL1
+ALARM1_SEC_MIN_HOUR_DATE_MATCH  LITERAL1
+ALARM1_SEC_MIN_HOUR_DAY_MATCH   LITERAL1
+
+ALARM2_EVERY_MINUTE             LITERAL1
+ALARM2_MIN_MATCH                LITERAL1
+ALARM2_MIN_HOUR_MATCH           LITERAL1
+ALARM2_MIN_HOUR_DATE_MATCH      LITERAL1
+ALARM2_MIN_HOUR_DAY_MATCH       LITERAL1
+
+#######################################
+
